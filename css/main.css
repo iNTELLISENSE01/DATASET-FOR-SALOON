@@ -133,6 +133,24 @@
   }
 }
 
+
+
+.optionSaloon{
+  display: flex;
+  flex-direction: column; 
+  margin-top: -10px; 
+  
+
+}
+.boxSaloon{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  
+
+}
+
 .col-9 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 75%;
