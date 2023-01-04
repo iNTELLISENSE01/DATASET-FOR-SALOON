@@ -23,6 +23,13 @@
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
     
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css2/style.css">
+
 </head>
 
 <body>
@@ -245,40 +252,14 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="subject">
-                                            <option disabled="disabled" selected="selected">Choose option</option>
-                                            <option>1 </option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                            <option>6</option>
-                                            <option>7</option>
-                                            <option>8</option>
-                                            <option>9</option>
-                                            <option>10 </option>
-                                            <option>11 </option>
-                                            <option>12 </option>
-                                            <option>13 </option>
-                                            <option>14 </option>
-                                            <option>15 </option>
-                                            <option>16 </option>
-                                            <option>17 </option>
-                                            <option>18 </option>
-                                            <option>19 </option>
-                                            <option>20 </option>
-                                            <option>21 </option>
-                                            <option>22 </option>
-                                            <option>23 </option>
-                                            <option>24 </option>
-                                            <option>25 </option>
-                                            <option>25 </option>
-                                            <option>26 </option>
-                                            <option>27 </option>
-                                            <option>28 </option>
-                                            <option>29 </option>
-                                            <option>30 </option>
-                                        </select>
+                                        <select class="multiple-checkboxes" multiple="multiple">
+                                            <option value="php">PHP</option>
+                                            <option value="javascript">JavaScript</option>
+                                            <option value="java">Java</option>
+                                            <option value="sql">SQL</option>
+                                            <option value="jquery">Jquery</option>
+                                            <option value=".net">.Net</option>
+                                            </select>
                                         <div class="select-dropdown"></div>
                                     </div>
                                 </div>
@@ -329,11 +310,14 @@
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="subject">
-                                            <option disabled="disabled" selected="selected">Choose option</option>
-                                            <option>Yes </option>
-                                            <option>No</option>
-                                        </select>
+                                        <select class="multiple-checkboxes" multiple="multiple">
+                                            <option value="php">PHP</option>
+                                            <option value="javascript">JavaScript</option>
+                                            <option value="java">Java</option>
+                                            <option value="sql">SQL</option>
+                                            <option value="jquery">Jquery</option>
+                                            <option value=".net">.Net</option>
+                                            </select>
                                         <div class="select-dropdown"></div>
                                     </div>
                                 </div>
@@ -356,6 +340,31 @@
                             </div>
                         </div>
 
+
+                        <section class="ftco-section">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6 text-center mb-5">
+                                     </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-8 col-lg-5 d-flex justify-content-center align-items-center">
+                                        <div class="d-flex text-left align-items-center w-100">
+                                            <strong class="sl">Select Language:</strong>
+                                        <select class="multiple-checkboxes" multiple="multiple">
+                                        <option value="php">PHP</option>
+                                        <option value="javascript">JavaScript</option>
+                                        <option value="java">Java</option>
+                                        <option value="sql">SQL</option>
+                                        <option value="jquery">Jquery</option>
+                                        <option value=".net">.Net</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
                          <hr class="mb-4"> <br>
                          <center>
                         <div>
@@ -375,6 +384,12 @@
     <script src="vendor/select2/select2.min.js"></script>
     <script src="vendor/datepicker/moment.min.js"></script>
     <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-multiselect.js"></script>
+  <script src="js/main.js"></script>
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
